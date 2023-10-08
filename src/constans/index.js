@@ -1,0 +1,8 @@
+const ROAD_WIDTH = 20
+const ROAD_LENGTH = 1000
+
+const SPEED = 50
+const CAMERA_HEIGHT = 2
+const START_Z = 30
+
+export { ROAD_WIDTH, ROAD_LENGTH, SPEED, CAMERA_HEIGHT, START_Z }

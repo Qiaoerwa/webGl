@@ -1,7 +1,8 @@
 import * as THREE from 'three'
 
-const sun = new THREE.DirectionalLight(0xffdddd, 1)
-sun.position.set(30, 60, -20)
+const sun = new THREE.DirectionalLight(0xffdddd, 2)
+sun.position.set(300, 200, -100)
 sun.castShadow = true
 
-export default sun
+const otherLight = new THREE.AmbientLight(0xffdddd, 0.1)
+export { sun, otherLight }
